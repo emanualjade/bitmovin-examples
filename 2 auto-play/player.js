@@ -9,9 +9,6 @@ var config = {
 var container = document.getElementById('my-player');
 var player = new bitmovin.player.Player(container, config);
 
-var container = document.getElementById('my-player');
-var player = new bitmovin.player.Player(container, config);
-
 var source = {
   "title": "Art of Motion",
   "description": "What is this event... Parcour?",
