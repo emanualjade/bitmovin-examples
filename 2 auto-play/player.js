@@ -1,6 +1,6 @@
 var config = {
   "key": "d89ecd42-0d79-4197-8869-1633b54c120a",
-  // Does not auto-play
+  // Does not auto-play in chrome
   playback : {
     autoplay: true
   }
