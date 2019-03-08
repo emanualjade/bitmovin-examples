@@ -1,8 +1,7 @@
 var config = {
   "key": "d89ecd42-0d79-4197-8869-1633b54c120a",
-  // Does not auto-play in chrome
   playback : {
-    autoplay: true,
+    autoplay: false,
     muted:true
   }
 }
@@ -19,6 +18,7 @@ var source = {
 
 player.load(source).then(
   function() {
+    player.play()
     console.log('Successfully created Bitmovin Player instance');
   },
   function(reason) {
