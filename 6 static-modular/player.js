@@ -8,6 +8,8 @@ bitmovin.player.core.Player.addModule(window.bitmovin.player['style'].default);
 bitmovin.player.core.Player.addModule(window.bitmovin.player['ui'].default);
 bitmovin.player.core.Player.addModule(window.bitmovin.player['dash'].default);
 bitmovin.player.core.Player.addModule(window.bitmovin.player['xml'].default);
+bitmovin.player.core.Player.addModule(window.bitmovin.player['advertising-core'].default);
+bitmovin.player.core.Player.addModule(window.bitmovin.player['advertising-bitmovin'].default);
 
 console.log(bitmovin)
 
