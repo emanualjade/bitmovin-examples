@@ -1,0 +1,95 @@
+/* https://bitmovin.com/docs/player/articles/player-ui-css-class-reference */
+
+/*start PumpkinUI*/
+.bmpui-ui-watermark {
+  filter: brightness(1) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-titlebar {
+  filter: brightness(1) sepia(1) saturate(0%);
+}
+
+.bmpui-ui-hugeplaybacktogglebutton {
+  filter: brightness(0.5) sepia(1) saturate(1000%);
+  opacity: 0.3;
+  transition: .3s ease-in-out;
+}
+
+.bmpui-ui-hugeplaybacktogglebutton:hover {
+  filter: brightness(0.5) sepia(1) saturate(1000%);
+  opacity: 0.9;
+  transition: .3s ease-in-out;
+}
+
+.bmpui-ui-playbacktimelabel {
+  filter: brightness(0.5) sepia(1) saturate(1000%);
+}
+
+.bmpui-seekbar-playbackposition-marker {
+  filter: brightness(0.7) sepia(1) saturate(1000%);
+}
+
+.bmpui-seekbar-playbackposition-marker:hover {
+  filter: brightness(2) sepia(0) saturate(0%);
+  transition: 0.2s;
+}
+
+.bmpui-seekbar-playbackposition {
+  filter: brightness(1) sepia(1) saturate(1000%);
+}
+
+.bmpui-seekbar-bufferlevel {
+  filter: brightness(1) saturate(1000%);
+}
+
+.bmpui-seekbar-backdrop {
+  filter: brightness(0) sepia(1) saturate(0%);
+}
+
+.bmpui-seekbar-label {
+  filter: brightness(1) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-playbacktogglebutton {
+  filter: brightness(0.4) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-volumetogglebutton {
+  filter: brightness(0.4) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-volumeslider {
+  filter: brightness(1) sepia(1) saturate(0%);
+}
+
+.bmpui-ui-casttogglebutton {
+  filter: brightness(0.4) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-settingstogglebutton {
+  filter: brightness(0.4) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-fullscreentogglebutton {
+  filter: brightness(0.4) sepia(1) saturate(1000%);
+}
+
+.bmpui-ui-settings-panel {
+  filter: brightness(0.4) sepia(1) saturate(1000%);
+}
+
+/*end PumpkinUI*/
+
+/*start HideBitmovinLogo*/
+.bmpui-ui-watermark {
+  display: none;
+}
+/*end HideBitmovinLogo*/
+
+/*start AlwaysShowUI*/
+.bmpui-ui-skin-modern .bmpui-ui-controlbar.bmpui-hidden {
+    opacity: 1;
+    visibility: visible;
+}
+/*end AlwaysShowUI*/
+
