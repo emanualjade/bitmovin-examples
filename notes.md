@@ -1,3 +1,25 @@
+# PlayerConfig
+  * adaptation
+  * advertising
+  * buffer
+  * cast
+  * events
+  * key
+  * licensing
+  * live
+  * location
+  * logs
+  * nativeFlash
+  * network
+  * playback
+  * remotecontrol
+  * style
+  * tweaks
+  * ui
+// PlayerAPI
+// PLAYER EVENTS
+// MODULES
+
 // player.x has 
   // player.ads
   // player.buffer
