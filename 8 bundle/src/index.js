@@ -42,7 +42,7 @@ config.ui = false; //disabling the built-in ui as we're creating one on our own
 const container = document.getElementById('my-player');
 const player = new Player(container, config);
 
-UIFactory.buildDefaultUI(player);
+let currentUiManager = UIFactory.buildDefaultUI(player);
 
 player.on(PlayerEvent.Playing, () => console.log('player is playing'));
 player.on(PlayerEvent.Paused, () => console.log('player is paused'));
@@ -63,3 +63,14 @@ player.load(source).then(
   },
   reason => console.log('Error while creating Bitmovin Player instance')
 );
+
+document
+  .getElementById('btn-standard-ui')
+  .addEventListener('click', function() {
+    currentUiManager.release();
+    currentUiManager = UIFactory.buildDefaultUI(player);
+  });
+document.getElementById('btn-small-ui').addEventListener('click', function() {
+  currentUiManager.release();
+  currentUiManager = UIFactory.buildModernSmallScreenUI(player);
+});
